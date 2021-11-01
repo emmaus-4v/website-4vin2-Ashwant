@@ -3,13 +3,16 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-color:#1b1a1a;  
     
-    color: #303030;
+    color: #a15656;
     font: Verdana, Arial, Sans-Serif;
 }
 
-
+#Plaatjelol{
+    Height: 350px;
+    width: 700px;
+}
 main {
     margin: 0 auto;
     width: 700px;
@@ -60,7 +63,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #8520c9;
     overflow: hidden;
 }
 
@@ -70,18 +73,18 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: white;
+    color: rgb(236, 235, 243);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: #bd0c0c;
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: rgb(219, 15, 202);
 }
 
 
