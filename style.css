@@ -8,11 +8,7 @@ html, body {
     color: #f3e9e9;
     font: Verdana, Arial, Sans-Serif;
 }
-
-#Plaatjelol{
-    Height: 350px;
-    width: 700px;
-}
+        
 main {
     margin: 0 auto;
     width: 700px;
@@ -40,11 +36,31 @@ footer {
 /* specifieke stijlen */
 
 img.zweefLinks {
-    float: left;
-    margin-right: 15px;
+    float: right;
+    margin-left: 20px;
     width: 220px;
 }
 
+#Plaatjelol{
+    Height: 350px;
+    width: 700px;
+}
+
+#oogabooga{
+    Height: 125px;
+    width:135px;
+    padding:5px;
+}
+#Kaos0{
+    height:150px;
+    width:140px;
+    padding:5px;
+}
+.text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    
+}
 .smalltext {
     font-size: 0.7em;
 }
