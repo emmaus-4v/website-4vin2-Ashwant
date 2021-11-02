@@ -42,6 +42,7 @@ footer {
 img.zweefLinks {
     float: left;
     margin-right: 15px;
+    width: 220px;
 }
 
 .smalltext {
