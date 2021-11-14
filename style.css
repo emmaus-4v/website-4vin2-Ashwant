@@ -66,19 +66,26 @@ img.zweefrechts {
 }
 
 #spyro1{ height :220px;
-         width :300px;
+         width :301px;
 
 }
-
 
 .giants{ height:250px;
          margin:15px;
          text-align:center;
 }
 
+#giant1{ height: 330px;
+    width: 300px;
+}
+
 .swap{ height:250px;
        margin:15px;
        text-align:center;
+}
+
+#swap1{ height: 190px;
+        width: 230px;
 }
 
 .trap{ height:250px;
@@ -94,6 +101,10 @@ img.zweefrechts {
 .imaginators{ height: 250px;
               margin:15px;
               text-align:center;
+}
+
+#imaginators1{ height: 230px;
+               width: 230px;
 }
 
 
