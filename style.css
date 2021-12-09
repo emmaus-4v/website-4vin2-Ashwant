@@ -10,6 +10,7 @@ overflow: hidden;
 /* Basislayout */
 
 html, body {
+    overflow: visible;
     height: 100%;
     padding: 0;
     background-color:#1b1a1a;  
@@ -68,7 +69,7 @@ img.zweefrechts {
     padding:5px;
 }
 
-.spyro{ height:250px;
+.spyro{ 
         margin:15px;
         margin-top: 25px;
         text-align :center;
@@ -79,7 +80,7 @@ img.zweefrechts {
 
 }
 
-.giant{ height:250px;
+.giant{ 
          margin:15px;
          text-align:center;
 }
@@ -88,7 +89,7 @@ img.zweefrechts {
     width: 200px;
 }
 
-.swap{ height:250px;
+.swap{ 
        margin:15px;
        text-align:center;
 }
@@ -97,17 +98,17 @@ img.zweefrechts {
         width: 230px;
 }
 
-.trap{ height:250px;
+.trap{ 
        margin:15px;
        text-align:center;
 }
 
-.super{ height:250px;
+.super{ 
         margin:15px;
         text-align:center;
 } 
 
-.imaginators{ height: 250px;
+.imaginators{ 
               margin:15px;
               text-align:center;
 }
@@ -143,8 +144,10 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #8520c9;
+    background-color:#1b1a1a;
     overflow: hidden;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 nav ul li {
@@ -157,14 +160,15 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    
 }
 
 nav li a:hover {
-    background-color: #bd0c0c;
+    background-color: purple;
 }
 
 nav li a.active {
-    background-color: rgb(219, 15, 202);
+    background-color:#c3b6c9;
 }
 
 
