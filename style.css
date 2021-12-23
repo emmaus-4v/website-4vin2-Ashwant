@@ -12,7 +12,7 @@ overflow-x:hidden;
 html, body {
     
               
-    
+    height: auto;
     color: #7e76f0;
     font: Verdana, Arial, Sans-Serif;
 }
@@ -97,6 +97,15 @@ img.zweefrechts {
     font-size: 0.7em;
 }
 
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover{
+    ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5);
+}
 a {
     color: skyblue;
     text-decoration: none;
@@ -110,23 +119,22 @@ a:hover {
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
-    margin: auto;
     padding: 0;
     background-color:#1b1a1a;
     overflow: hidden;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 141px;
+    margin-right: 142px;
 }
 
 nav ul li {
-    float: left;
+    float:left;
 }
 
 nav li a {
     display: block;
     color: rgb(236, 235, 243);
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 16px;
     text-decoration: none;
     
 }
